@@ -12,7 +12,7 @@ public class EcommerceApplication {
         ClothingProducts cloth = new ClothingProducts();
         cloth.productName = "Shirt";
         cloth.productPrize = 845.99d;
-        cloth.clothBrand = "Raugh Lauren";
+        cloth.clothBrand = "Ralph Lauren";
         cloth.clothSize = ClothSize.M;
 
         laptop.returnReplacementPolicy();

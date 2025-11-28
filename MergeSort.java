@@ -12,7 +12,7 @@ public class MergeSort {
         System.out.println(Arrays.toString(arr));
 
     }
-    public static void mergeSort(int[] arr, int low, int high){
+    public static void mergeSort( int[] arr, int low, int high){
 
         if(low>= high){
             return;

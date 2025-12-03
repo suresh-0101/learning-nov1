@@ -14,7 +14,7 @@ public class Subtractor implements Runnable{
             count.setValue(value);
         }
 
-        System.out.println("Subtractor value :"+count.getValue());
+        System.out.println("Subtractor value :"+count.getValue()+" by "+Thread.currentThread().getName());
     }
 
 }

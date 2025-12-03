@@ -16,7 +16,7 @@ public class Adder implements Runnable{
             value    += index ;
             count.setValue(value);
         }
-        System.out.println("Adder value :"+count.getValue());
+        System.out.println("Adder value :"+count.getValue()+" by "+Thread.currentThread().getName());
 
     }
 }
